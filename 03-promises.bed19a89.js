@@ -1,0 +1,2 @@
+const e=document.querySelector(".form");e.addEventListener("submit",(function(e){e.preventDefault()})),console.dir(e.elements.delay.value);const o=e.elements.delay;new Promise(((e,n)=>{const t=Math.random()>.3;setTimeout((()=>{t?e():n()}),o)})).then((({position:e,delay:o})=>{console.log(`✅ Fulfilled promise ${e} in ${o}ms`)})).catch((({position:e,delay:o})=>{console.log(`❌ Rejected promise ${e} in ${o}ms`)}));
+//# sourceMappingURL=03-promises.bed19a89.js.map
