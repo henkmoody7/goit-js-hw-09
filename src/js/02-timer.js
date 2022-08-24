@@ -53,7 +53,8 @@ function onStartBtnClick() {
 
 function onStopBtnClick() {
   clearInterval(timerId);
-  renderTimer(convertMs(00));
+  const reset = convertMs(00);
+  renderTimer(reset);
   refs.dateTimePicker.disabled = false;
 }
 
